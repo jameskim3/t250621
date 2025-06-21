@@ -1,0 +1,3 @@
+C:\install\dotNetFramework_dllTest.exe.config
+C:\install\dotNetFramework_dllTest.exe
+C:\install\dotNetFramework_dllTest.pdb

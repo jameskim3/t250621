@@ -1,0 +1,4 @@
+@echo off
+echo 복사 중...
+xcopy /Y /D "libcrypto-3-x64.dll" "c:\install"
+xcopy /Y /D "libssl-3-x64.dll" "c:\install"

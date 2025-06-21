@@ -1,0 +1,5 @@
+C:\Users\ipofr\source\repos\MFCLibrary2\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.exe
+C:\Users\ipofr\source\repos\MFCLibrary2\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.deps.json
+C:\Users\ipofr\source\repos\MFCLibrary2\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.runtimeconfig.json
+C:\Users\ipofr\source\repos\MFCLibrary2\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.dll
+C:\Users\ipofr\source\repos\MFCLibrary2\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.pdb
