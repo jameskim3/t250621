@@ -7,10 +7,14 @@ using Size = OpenCvSharp.Size;
 
 namespace aruco_test
 {
-    public class CameraCalibrator
+    public class CameraCalibrator2
     {
+        public List<Point2f[]> ImagePoints { get; private set; } = new List<Point2f[]>();
+        public List<Point3f[]> ObjectPoints { get; private set; } = new List<Point3f[]>();
         public Mat CameraMatrix { get; private set; }
         public Mat DistCoeffs { get; private set; }
+        public List<Mat> RotationVectors { get; private set; }
+        public List<Mat> TranslationVectors { get; private set; }
 
         // Point3f[] → Mat 변환
         private Mat ConvertObjectPoints(Point3f[] points)
@@ -78,6 +82,9 @@ namespace aruco_test
 
             CameraMatrix = new Mat();
             DistCoeffs = new Mat();
+
+            RotationVectors = new List<Mat>();
+            TranslationVectors = new List<Mat>();
 
             double rms = Cv2.CalibrateCamera(
                 objectPointsList,
